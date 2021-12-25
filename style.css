@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: background 0.2s linear;
+}
+
+.navbar {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.733);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    position: absolute;
+    width: 1435px;
+    margin-top: 16px;
+}
+
+a.home {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+a.marketplace {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+a.create {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.links{
+    margin-top: 15px;
+    margin-left: 1090px;
+    padding-right: 10px;
+}
+
+.nav-logo-container{
+    width: 1px;
+    height: 1px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    padding: 5px;
+    top: 5px;
+}
+
+body {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+        background-blend-mode:difference;
+}
